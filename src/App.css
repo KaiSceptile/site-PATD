@@ -1,0 +1,208 @@
+body {
+background-color: #EAEAEA;
+  margin: auto;
+  font-family: Algerian,"Bodoni MT Condensed";
+width: 1440px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.App-link {
+  color: #61dafb;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 28px;
+}
+h4{
+  font-size: 24px;
+}
+p{
+  font-family: Centaur;
+  font-size: 20px;
+}
+button{
+  font-family: Algerian;
+  font-size: 28px;
+  border-radius: 20px;
+  opacity: 70%;
+  background-color: #EEEEEE;
+}
+button:hover{
+  transition: 0.3s;
+  opacity: 1;
+  cursor: grab;
+  background-color: #AAAAAA;
+}
+.logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+  cursor: grab;
+}
+.nav-container{
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  width:1440px;
+  height: 200px;
+}
+.header-container{
+  display: flex;
+  width:1440px;
+}
+ul.nav{
+  display: flex;
+  width: 650px;
+  margin-left: auto;
+  margin-right: 30px;
+  font-family: Algerian;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navElement{
+  font-size: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.navElement:hover{
+  cursor: grab;
+  color: coral;
+}
+
+a:hover{
+  cursor: grab;
+  color: coral;
+}
+.nav-background{
+  width: 1440px;
+  height: 200px;
+  position: relative;
+  z-index: 0;
+}
+footer{
+  display: flex;
+}
+.footer-background{
+  margin-top: 40px;
+  width: 1440px;
+  height: 500px;
+  z-index: -1;
+  position: relative;
+}
+.footer-container{
+  text-align: center;
+  color: #BBBBBB;
+  margin-top: 40px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+}
+.symbol{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 200px;
+}
+.socials{
+  margin-top: 50px;
+  display: flex;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.social{
+  width: 32px;
+  height: 32px;
+  opacity: 40%;
+}
+.social:hover{
+  cursor: grab;
+  opacity: 1;
+}
+.fbr-logo{
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 20px;
+  opacity: 40%;
+}
+.fbr-logo:hover{
+  cursor: grab;
+  opacity: 1;
+}
+.info-container{
+  background-color: #f4f4f4;
+  border-style: ridge;
+  border-width: 9px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1040px;
+}
+.news-pic{
+  width: 40%;
+}
+.news-text{
+  width: 900px;
+}
+.news-data{
+}
+.news-title{
+  margin-top: -5px;
+}
+.cover{
+  width: 400px;
+  height: 400px;
+}
+.album-info{
+  width:700px;
+}
+.sidebar{
+  margin-top: 30px;
+  text-align: center;
+
+  background-color: #CFCFCF;
+  border-radius: 30px;
+  float: right;
+  width: 350px;
+  height:400px;
+}
+.sidebar-text{
+  margin: auto;
+  margin-top: 30px;
+  width: 300px;
+}
+.donation{
+  border-radius: 40px;
+  width:200px;
+  height: 60px;
+}
+.news-button{
+  margin-top: 20px;
+  width:290px;
+  margin-bottom: 20px;
+}
+.music-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:150px;
+}
+.video-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:150px;
+}
+.music-title{
+  margin-top: -10px;
+}
