@@ -1,0 +1,95 @@
+.cover{
+  @media (min-width: 1440px){
+    width: 400px;
+    height: 400px;
+  }
+  @media (min-width: 720px) and (max-width: 1439px){
+    width: 300px;
+    height: 300px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 170px;
+    height: 170px;
+  }
+}
+.album-info{
+  @media (min-width: 1440px){
+    width:600px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width:70%;
+  }
+}
+.music-title{
+  margin-top: -10px;
+}
+.info-container-music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.music{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+    border-style: ridge;
+    border-width: 9px;
+    margin-top: 25px;
+    @media (min-width: 1440px){
+      width: 1040px;
+    }
+    @media (min-width: 360px) and (max-width: 1439px){
+      width: 65%;
+    }
+}
+
+.music-slide{
+  border-radius: 80px;
+  width: 70px;
+  height: 70px;
+  @media (min-width: 720px) and (max-width: 1439px){
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.music-button{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  @media (min-width: 720px){
+    width:150px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 70%;
+    font-size: 14px;
+  }
+}
+.albums{
+  position: relative;
+  @media (min-width: 1440px){
+    width: 750px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width: 70%;
+  }
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  margin:auto;
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: scale(1.08);
+}

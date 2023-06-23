@@ -1,0 +1,22 @@
+.news-container{
+  text-align: center;
+  @media (min-width: 1440px){
+		width: 1040px;
+	}
+	@media (min-width: 360px) and (max-width: 1439px){
+		width: 65%;
+	}
+}
+
+.button-navigation{
+  margin:auto;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+	width: 215px;
+}
+
+.button-navigation button{
+  width:40px;
+  border-radius: 40px;
+}

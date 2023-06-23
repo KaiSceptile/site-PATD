@@ -1,0 +1,33 @@
+.tour-table{
+  display: grid;
+  background-color: #f4f4f4;
+	border-style: ridge;
+	border-width: 9px;
+  grid-template-columns: 1fr 2fr 2fr;
+  @media (min-width: 1440px){
+    width: 1040px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width: 65%;
+  }
+}
+.tour-title{
+  text-align: center;
+  @media (min-width: 1440px){
+    width: 1040px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width: 65%;
+  }
+}
+.tour-date{
+  text-align: center;
+  color: #777;
+}
+.tour-location{
+  text-align: center;
+}
+.tour-place{
+  text-align: center;
+  color:coral;
+}
