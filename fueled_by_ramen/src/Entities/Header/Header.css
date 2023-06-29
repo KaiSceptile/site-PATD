@@ -1,0 +1,88 @@
+.logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  @media (min-width: 1440px){
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  @media (min-width: 720px) and (max-width: 1439px){
+    width: 18%;
+    margin-left: 20px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 15%;
+    margin-left: 10px;
+  }
+}
+.nav-container{
+  display: flex;
+  position: absolute;
+  @media (min-width: 1440px){
+    width:1440px;
+    height: 200px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width:100%;
+    margin-top: 2%;
+  }
+}
+.header-container{
+  display: flex;
+  @media (min-width: 1440px){
+    width:1440px;
+  }
+  @media (min-width: 360px) and (max-width: 1439px){
+    width:100%;
+  }
+}
+ul.nav{
+  display: flex;
+  margin-left: auto;
+  font-family: Algerian;
+  justify-content: space-between;
+  list-style: none;
+  @media (min-width: 1440px){
+    width: 650px;
+    margin-right: 30px;
+  }
+  @media (min-width: 720px) and (max-width: 1439px){
+    width: 55%;
+    margin-right: 20px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 70%;
+    margin-right: 10px;
+  }
+}
+.navElement{
+  margin-top: auto;
+  margin-bottom: auto;
+  @media (min-width: 1440px){
+    font-size: 32px;
+  }
+  @media (min-width: 720px) and (max-width: 1439px){
+    font-size: 22px;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    font-size: 14px;
+  }
+}
+.navElement:hover{
+  cursor: grab;
+  color: coral;
+}
+.nav-background{
+  position: relative;
+  @media (min-width: 1440px){
+    width: 1440px;
+    height: 200px;
+  }
+  @media (min-width: 720px) and (max-width: 1439px){
+    width: 100%;
+  }
+  @media (min-width: 360px) and (max-width: 719px){
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.container-new{
+	background-color: #f4f4f4;
+	border-style: ridge;
+	border-width: 9px;
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  width: auto;
+}
