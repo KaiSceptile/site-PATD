@@ -1,17 +1,30 @@
 import "./Music.css";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import allInfo from "./music.json";
 
 function Music() {
   const [state, setState] = React.useState(0);
-
+  const [data,setData]=React.useState([]);
+  const fetchData = async () => {
+    try {
+      const response = await fetch('/music');
+      const json = await response.json();
+      console.log(json);
+      setData(json);
+    } catch (error) {
+      console.log("error", error);
+    }
+  };
+  useEffect(()=>{
+    fetchData();
+  },[]);
   const decState = () => {
     if (state != 0) {
       setState(state - 1);
     }
   };
   const incState = () => {
-    if (state != allInfo.length - 1) {
+    if (state != data.length - 1) {
       setState(state + 1);
     }
   };
@@ -22,7 +35,7 @@ function Music() {
         {"<"}
       </button>
       <div className="albums">
-        {allInfo.map((slide, index) => {
+        {data && data.map((slide, index) => {
           return (
             <Fragment key={index}>
               <div className={index === state ? "slide active" : "slide"}>
